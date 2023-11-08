@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Altar día de Muertos | the_frontdev</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="components/calaverita/calaverita.js"></script>
+  <script type="module" src="components/vela/vela.js"></script>
+  <script type="module" src="components/flores/flores.js"></script>
+  <script type="module" src="components/pan/pan.js"></script>
+  <script type="module" src="components/papel-picado/papel-picado.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="papel-container">
+      <fd-papelpicado color="#e91e63"></fd-papelpicado>
+      <fd-papelpicado color="#ffea00"></fd-papelpicado>
+      <fd-papelpicado color="#e91e63"></fd-papelpicado>
+      <fd-papelpicado color="#fb8c00"></fd-papelpicado>
+      <fd-papelpicado color="#e91e63"></fd-papelpicado>
+    </div>
+    <div class="altar">
+      <div class="top">
+        <div class="things">
+          <fd-calaverita nombre="Marzo"></fd-calaverita>
+          <fd-vela></fd-vela>
+          <div class="frame">
+            <div class="foto">
+              <div class="male">
+                <span class="name" id="foto-name">MAU</span>
+              </div>
+            </div>
+          </div>
+          <fd-vela></fd-vela>
+          <fd-calaverita nombre="Nicho"></fd-calaverita>
+        </div>
+        <div class="table"></div>
+      </div>
+      <div class="bottom">
+        <div class="things">
+          <fd-calaverita nombre="Lupita"></fd-calaverita>
+          <fd-calaverita nombre="José"></fd-calaverita>
+          <fd-flores></fd-flores>
+          <fd-pan></fd-pan>
+          <fd-vela></fd-vela>
+          <fd-pan></fd-pan>
+          <fd-vela></fd-vela>
+          <fd-pan></fd-pan>
+          <fd-flores></fd-flores>
+          <fd-calaverita nombre="Chano"></fd-calaverita>
+          <fd-calaverita nombre="Mago"></fd-calaverita>
+        </div>
+        <div class="table"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
